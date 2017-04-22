@@ -1,1 +1,18 @@
-theme: jekyll-theme-slate
+url: https://y7kim.github.io
+baseurl:
+
+# Site settings
+title: The Cottage Deli
+email: contact@thecottagdeli.co.uk
+description: "A family-run delicatessen in the heart of Hyde market."
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Hyde Market Hall,
+  - line: Clarendon Square,
+  - line: Clarendon St,
+  - line: Hyde SK14 2QT
+
+# Build settings
+markdown: kramdown
+permalink: pretty
