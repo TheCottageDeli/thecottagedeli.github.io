@@ -1,0 +1,12 @@
+---
+title: Cheeses
+subtitle: The finest cheeses from all over the UK and further affield.
+layout: default
+modal-id: 2
+date: 2016-05-30
+img: cheeses.jpg
+thumbnail: cheeses-thumbnail.jpg
+alt: The finest cheeses from all over the UK and further afield.
+description: The finest cheeses from all over the UK and further afield.
+
+---
