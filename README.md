@@ -38,4 +38,6 @@ Run jekyll with:
 
 See the site locally: http://127.0.0.1:4000/
 
-Or on github pages: https://github.com/thecottagedeli/thecottagedeli.github.io
+Or on github pages: https://thecottagedeli.github.io/
+
+Or via domain name: http://www.thecottagedeli.co.uk
