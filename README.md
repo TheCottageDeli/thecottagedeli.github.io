@@ -27,8 +27,8 @@ Clone:
 
 Run:
 
-  gem install jekyl bundler
-  bundle install
+    gem install jekyl bundler
+    bundle install
 
 # Develop
 
