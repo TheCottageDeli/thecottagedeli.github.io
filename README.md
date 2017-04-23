@@ -1,30 +1,41 @@
-Agency Jekyll theme
-====================
+The Cottage Deli
+================
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+A website for The Cottage Deli in Hyde Market.
 
-# How to use
+Based on the beautiful Jekyll Agency theme [Jekyll Agency bootstrap theme ](http://jekyllthemes.org/themes/agency/)
 
-###Portfolio 
+# Install
 
-Portfolio projects are in '/_posts'
+This uses Jekyll which is wonderful, but unfortunately requires Ruby on a mac, which is not.
 
-Images are in '/img/portfolio'
+Install the xcode command line tools for your flavour of MacOS from: https://developer.apple.com/download/more/
 
-###About
+Install rvm:
 
-Images are in '/img/about/'
+  curl -sSL https://get.rvm.io | bash -s
 
-###Team
+Install ruby:
 
-Team members and info are in '_config.yml'
+  bash # to get your newly installed rvm
+  rvm install 2.4 # or whichever version you like
 
-Images are in '/img/team/'
+Clone:
 
+  git clone git@github.com:TheCottageDeli/thecottagedeli.github.io.git
+  cd thecottagedeli.github.io.git
 
-# Demo
+Run:
 
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+  gem install jekyl bundler
+  bundle install
 
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+# Develop
+
+Run jekyll with:
+
+  jekyll serve --incremental --watch
+
+See the site locally: http://127.0.0.1:4000/
+
+Or on github pages: https://github.com/thecottagedeli/thecottagedeli.github.io

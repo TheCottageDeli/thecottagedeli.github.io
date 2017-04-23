@@ -4,14 +4,14 @@ baseurl:
 # Site settings
 title: The Cottage Deli
 email: contact@thecottagdeli.co.uk
-description: "A family-run delicatessen in the heart of Hyde market."
+description: "A family-run delicatessen in the heart of Hyde"
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Hyde Market Hall,
+  - line: Hyde Market Hall
   - line: Clarendon Square,
   - line: Clarendon St,
-  - line: Hyde SK14 2QT
+  - line: Hyde, SK14 2QT
 
 # Build settings
 markdown: kramdown

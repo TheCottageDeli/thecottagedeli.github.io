@@ -291,13 +291,30 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
-header .intro-text .intro-heading {
+header .intro-text .intro-upper-case-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+eader .intro-text .intro-sub-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
 }
 
 @media(min-width:768px) {
@@ -314,13 +331,30 @@ header .intro-text .intro-heading {
         line-height: 40px;
     }
 
-    header .intro-text .intro-heading {
+    header .intro-text .intro-upper-case-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        font-family: {{ site.data.template.font.secondary }};
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+
+    header .intro-text .intro-sub-heading {
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        font-family: {{ site.data.template.font.primary }};
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
     }
 }
 
@@ -437,6 +471,10 @@ section#contact .section-heading {
     color: #fff;
 }
 
+footer p {
+    font-size: 12px;
+    text-align: left
+}
 
 footer {
     padding: 25px 0;
@@ -588,6 +626,24 @@ body {
 	height:500px;	
 }
 
+.map-size {
+    width:300px;
+    height:300px;
+}
+
+@media(min-width:667px) {
+    .map-size {
+        width:600px;
+        height:450px;
+    }
+}
+
+@media(min-width:467px) and (max-width: 666px) {
+    .map-size {
+        width:400px;
+        height:300px;
+    }
+}
 
 .map-wrap {
 	position:relative; 
