@@ -13,17 +13,17 @@ Install the xcode command line tools for your flavour of MacOS from: https://dev
 
 Install rvm:
 
-  curl -sSL https://get.rvm.io | bash -s
+    curl -sSL https://get.rvm.io | bash -s
 
 Install ruby:
 
-  bash # to get your newly installed rvm
-  rvm install 2.4 # or whichever version you like
+    bash # to get your newly installed rvm
+    rvm install 2.4 # or whichever version you like
 
 Clone:
 
-  git clone git@github.com:TheCottageDeli/thecottagedeli.github.io.git
-  cd thecottagedeli.github.io.git
+    git clone git@github.com:TheCottageDeli/thecottagedeli.github.io.git
+    cd thecottagedeli.github.io.git
 
 Run:
 
@@ -34,7 +34,7 @@ Run:
 
 Run jekyll with:
 
-  jekyll serve --incremental --watch
+    jekyll serve --incremental --watch
 
 See the site locally: http://127.0.0.1:4000/
 
