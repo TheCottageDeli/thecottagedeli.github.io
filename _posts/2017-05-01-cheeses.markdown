@@ -1,6 +1,6 @@
 ---
 title: Cheeses
-subtitle: The finest cheeses from all over the UK and further affield.
+subtitle: The finest cheeses from all over the UK and further afield.
 layout: default
 modal-id: 2
 date: 2016-05-30
