@@ -1,0 +1,12 @@
+---
+title: Pies
+subtitle: Hand raised or flat pies? Pork or meat? The choice is yours.
+layout: default
+modal-id: 4
+date: 2016-05-28
+img: pies.jpg
+thumbnail: pies-thumbnail.jpg
+alt: Hand raised or flat pies? Pork or meat? The choice is yours.
+description: Hand raised or flat pies? Pork or meat? The choice is yours.
+
+---

@@ -1,0 +1,12 @@
+---
+title: Eggs
+subtitle: Free range and fresh - what more could you want? Well, we do the bacon too!
+layout: default
+modal-id: 6
+date: 2016-05-26
+img: eggs.jpg
+thumbnail: eggs-thumbnail.jpg
+alt: Free range and fresh - what more could you want? Well, we do the bacon too!
+description: Free range and fresh - what more could you want? Well, we do the bacon too!
+
+---
