@@ -18,8 +18,7 @@ Install rvm:
 Install ruby:
 
     bash # to get your newly installed rvm
-    rvm install 2.4 # or whichever version you like
-
+    rvm install 3.0.0
 Clone:
 
     git clone git@github.com:TheCottageDeli/thecottagedeli.github.io.git
@@ -27,14 +26,16 @@ Clone:
 
 Run:
 
-    gem install jekyll bundler
+    gem install eventmachine -- --with-openssl-dir=/usr/local/opt/openssl@1.1
+    gem install bundler webrick jekyll
     bundle install
+    bundle add webrick
 
 # Develop
 
 Run jekyll with:
 
-    jekyll serve --incremental --watch
+    bundle exec jekyll serve --incremental --watch
 
 See the site locally: http://127.0.0.1:4000/
 
